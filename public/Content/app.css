@@ -3,3 +3,38 @@
 .row.added_padding{
     padding-bottom: 100px;
 }
+
+.projects_wrap{
+    padding-bottom: 100px;
+}
+
+#image1{
+    width: 40%;
+    height: 40%;
+}
+
+.myself{
+    margin-bottom: 100px;
+}
+
+.container{
+    border: 1px solid black;
+}
+
+.wrap{
+    width: 80%;
+    margin: auto;
+}
+
+.service_wrap{
+    display: flex;
+}
+
+.skill{
+    flex: 1;
+}
+
+main{
+    background-image: url("/Assets/images/Image2.jpg");
+    height: 80vh;
+}

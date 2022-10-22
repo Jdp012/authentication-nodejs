@@ -13,7 +13,7 @@ router.get('/home', indexController.displayHomePage);
 router.get('/about', indexController.displayAboutPage);
 
 /* GET Products page. */
-router.get('/products', indexController.displayProductsPage);
+router.get('/projects', indexController.displayProjectsPage);
 
 /* GET Services page. */
 router.get('/services', indexController.displayServicesPage);
@@ -35,5 +35,7 @@ router.post('/register', indexController.processRegisterPage);
 
 /* GET to perform UserLogout */
 router.get('/logout', indexController.performLogout);
+
+router.post('/submit', indexController.displayHomePage);
 
 module.exports = router;
